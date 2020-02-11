@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+       myapp1:
+        build: .
+        image: kingweb:v1
+        container_name: jarvis
+        ports:
+         - "3000:80"        
+
